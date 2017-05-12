@@ -1,0 +1,732 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* ==========================================================================
+                    common rules
+========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nomob {
+    display: none;
+}
+
+.imgacc {
+    display: flex;
+    justify-content: center;
+}
+
+.imgacc img {
+    height: 100vh;
+}
+
+.dore {
+    width: 100%;
+    background-color: #c3b076;
+    padding: 23px 0;
+}
+
+.cent {
+    width: 95%;
+    margin: auto;
+}
+
+.center li {
+    text-align: center;
+}
+
+figcaption {
+    text-align: justify;
+}
+
+
+/* ==========================================================================
+                   end of common rules
+========================================================================== */
+
+
+/* ==========================================================================
+                header rules
+========================================================================== */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #c3b076;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/*----------------------Blog.html --------------------*/
+
+.blog {
+    margin-top: 100px;
+    min-height: 730px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.blog figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog figure figcaption {
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+
+/*--------------------------------- temoignage.html-----------------*/
+
+
+/*rules page temoignage*/
+
+
+/*rules common*/
+
+.rotate {
+    image-orientation: 90deg;
+}
+
+.temoignage1 img, .temoignage2 img, .temoignage3 img {
+    width: 100%;
+}
+
+.temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
+    width: 30%;
+}
+
+.temoignage1, .temoignage2, .temoignage3 {
+    border: #c3b076 solid 3px;
+    border-radius: 3px;
+}
+
+.temoignage1 p, .temoignage2 p, .temoignage3 p {
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+
+/*end rules common*/
+
+
+/*rules section class temoignage1*/
+
+h1 {
+    color: #c3b076;
+    font-family: courier;
+}
+
+.temoignage1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*end rules section class temoignage1*/
+
+
+/*rules section class temoignage2*/
+
+.temoignage2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+
+/*end rules section class temoignage2*/
+
+
+/*rules section class temoignage3*/
+
+.temoignage3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+
+/*end rules section class temoignage3*/
+
+.cita {
+    color: #c3b076;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+
+/*end rules page temoignage*/
+
+.presentation figure figcaption {
+    width: 65%;
+}
+
+.presentation figure {
+    display: flex;
+    justify-content: center;
+}
+
+.presentation figure img {
+    width: 315px;
+    height: 315px;
+    margin: auto;
+    margin: 0;
+}
+
+.imglivre{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imglivre img{
+  width: 60%;
+}
+
+.logochinois{
+  margin: 0;
+}
+
+.imgaccom{
+  width: 100%;
+  height: 50vh;
+}
+/* ==========================================================================
+                   end of header rules
+========================================================================== */
+
+
+/* ==========================================================================
+                main rules
+========================================================================== */
+
+
+/* ==========================================================================
+                   end of main rules
+========================================================================== */
+
+
+/* ==========================================================================
+                            start of footer rules
+========================================================================== */
+
+footer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+}
+
+footer nav {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+footer ul {
+    width: 70%;
+    margin: auto;
+    list-style-type: none;
+}
+
+footer ul li {
+    text-align: center;
+}
+
+footer ul li i {
+    margin-bottom: 20px;
+}
+
+
+/* ==========================================================================
+                                     end of footer rules
+========================================================================== */
+
+@media (min-width:768px) {
+    /* ==========================================================================
+                      common rules
+  ========================================================================== */
+    /* ==========================================================================
+                     end of common rules
+  ========================================================================== */
+    /* ==========================================================================
+                  header rules
+  ========================================================================== */
+    /* ==========================================================================
+                     end of header rules
+  ========================================================================== */
+    /* ==========================================================================
+                  main rules
+  ========================================================================== */
+    /*rules page temoignage*/
+    /*rules common*/
+    .temoignage1 figure, .temoignage2 figure, .temoignage3 figure {
+        width: 20%;
+    }
+    .tex {
+        width: 65%;
+    }
+    /*end rules common*/
+    /*rules article class fulls*/
+    .fulls figure img {
+        height: 60vh;
+    }
+    /*end rules article class fulls*/
+    /*rules section class temoignage1*/
+    .temoignage1 {
+        display: flex;
+    }
+    /*end rules section class temoignage1*/
+    /*rules section class temoignage2*/
+    .temoignage2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    /*end rules section class temoignage2*/
+    /*rules section class temoignage3*/
+    .temoignage3 {
+        display: flex;
+    }
+    /*end rules section class temoignage3*/
+    /*end rules page temoignage*/
+    /* ==========================================================================
+                     end of main rules
+  ========================================================================== */
+    /* ==========================================================================
+                              start of footer rules
+  ========================================================================== */
+    /* ==========================================================================
+                                       end of footer rules
+  ========================================================================== */
+}
+
+@media (min-width:1024px) {
+    /* ==========================================================================
+                      common rules
+  ========================================================================== */
+    .nopc {
+        display: none;
+    }
+    .nomob {
+        display: block;
+    }
+    /* ==========================================================================
+                     end of common rules
+  ========================================================================== */
+    /* ==========================================================================
+                  header rules
+  ========================================================================== */
+    iframe {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+        transition: 1s opacity;
+    }
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    header nav ul li img {
+        height: 100px;
+        width: 150px;
+    }
+    header nav ul a {
+        color: black;
+        text-decoration: none;
+    }
+    header nav ul a:hover {
+        border-bottom: 2px solid #c3b076;
+    }
+    /*-------------------- presentation.html----------------*/
+    .presentation figure figcaption {
+        width: 65%;
+        margin-left: 20px;
+        vertical-align:middle;
+    }
+    .presentation figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .presentation figure img {
+        height: 250px;
+    }
+
+    .imglivre{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .imglivre img{
+      width: 60%;
+    }
+    /* ==========================================================================
+                     end of header rules
+  ========================================================================== */
+    /* ==========================================================================
+                  main rules
+  ========================================================================== */
+    /* ==========================================================================
+                     end of main rules
+  ========================================================================== */
+    /* ==========================================================================
+                              end of footer rules
+  ========================================================================== */
+    footer {
+        flex-direction: row;
+        width: 70%;
+    }
+    footer nav {
+        width: 32%;
+        padding-bottom: 15px;
+    }
+    footer ul {
+        width: 100%;
+    }
+    /* ==========================================================================
+                                       end of footer rules
+  ========================================================================== */
+}
+
+
+/*rules page contact*/
+
+.formul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rdv {
+    margin: 1em;
+    color: #c3b076;
+    font-size: 20px;
+}
+
+.rdv p {
+    margin-top: 1em;
+}
+
+
+/*end rules page contact*/
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *, *:before, *:after, *:first-letter, *:first-line {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a, a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after, a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+    tr, img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2, h3 {
+        page-break-after: avoid;
+    }
+}
