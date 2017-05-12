@@ -1,0 +1,64 @@
+div
+{
+    border-radius: 5px;
+}
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:60px;
+    width: 98%;
+    background-color: #2A568F;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+#footer
+{
+  height:100px;
+  clear:both;
+  position: relative;
+  background-color:#2A568F;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+h3
+{
+    text-decoration: underline;
+    }
+
+
+#heading
+{
+    font-weight:bold;
+    }

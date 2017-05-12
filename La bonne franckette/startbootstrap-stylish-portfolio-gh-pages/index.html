@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>La bonne franquette</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>La bonne franquette</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Menu</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Plats</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- tete -->
+    <header id="top" class="header">
+        <div class="text-vertical-center"> </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>  <img src="img/logo.png" alt="logo la bone franquette">  </center>
+    </header>
+    <center><h1>Bienvenue chez vous !</h1></center>
+
+<section id="services" class="services">
+  <aside class="call-to-action bg-primary">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h1>menu !</h1>
+              </div>
+          </div>
+      </div>
+  </aside>
+    <!-- Menu -->
+    <aside class="callout">
+        <div class="text-vertical-center"></div>
+    </aside>
+</section>
+<center><img src="img/reduc.png" alt="bandau"></center>
+
+    <!-- photo pate -->
+    <section id="portfolio" class="portfolio">
+      <aside class="call-to-action bg-primary">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <h1>plats</h1>
+                  </div>
+              </div>
+          </div>
+      </aside>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Nos plats</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/torpes.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/spabolo.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/tagsau.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/maccarb.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- fin photo pate -->
+
+</section>
+
+<div class="">
+
+</div><aside class="préparer">
+  <center>  <div class="text-vertical-center">
+      <!--liste a cocher -->
+          <FORM>
+          <INPUT type="checkbox" name="choix1" value="1"> Spaghettis 
+          <INPUT type="checkbox" name="choix2" value="2"> Penne
+          <INPUT type="checkbox" name="choix3" value="3"> Tortellini
+          <INPUT type="checkbox" name="choix4" value="4"> Macaroni
+          </FORM>
+          <br><br>
+<!-- liste deroulante sauce -->
+      <FORM>
+      <SELECT name="nom" size="1">
+      <OPTION>Selection sauces
+      <OPTION>Carbonara
+      <OPTION>Bolognaise
+      <OPTION>pesto rouge
+      <OPTION>Saumon
+      </SELECT>
+      </FORM>
+      <br><br>
+<!-- liste deroulante boisson -->
+      <FORM>
+      <SELECT name="nom" size="1">
+      <OPTION>Selection boissons
+      <OPTION> Bière
+      <OPTION>Coca cola
+      <OPTION>Eau
+      <OPTION>Jus d'orange
+      </SELECT>
+    </FORM><br><br>
+
+<!-- liste a cocher facon checkbox -->
+
+
+    <p>Desserts</p> <br><form method="POST" action="checkbox.php">
+        <input type="checkbox" name="choix[]" value="1">Yaourt nature<br>
+        <input type="checkbox" name="choix[]" value="2"> Fromage blanc<br>
+        <input type="checkbox" name="choix[]" value="3"> Tarte au pommes<br>
+        <input type="checkbox" name="choix[]" value="4"> Café gourmand<br>
+      </form> <br>
+
+<!-- bouton radio -->
+
+<INPUT TYPE="radio" NAME= "repas" VALUE="menu2">Sur place <BR>
+<INPUT TYPE="radio" NAME= "repas" VALUE="carte">A emporter <br><br>
+
+    <!--  commande -->
+
+    <FORM>
+    <INPUT type="button" name="nom" value= "Commander"
+    onclick="alert('votre commande est validé !')">
+    </FORM>
+    <br>
+
+
+  </div> </center>
+</aside>
+
+<section id="contact" class="footer">
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Trouvez nous!</h1>
+                </div>
+            </div>
+        </div>
+    </aside>
+</section>
+    <!-- Map -->
+    <center><aside class="mapss">
+        <div class="text-vertical-center"></div>
+    </aside>
+  </center>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>La bonne franquette</strong>
+                    </h4>
+                    <p>154 rue de la lys
+                        <br>Halluin, 59250</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> 03 20 23 89 98</li>
+
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>

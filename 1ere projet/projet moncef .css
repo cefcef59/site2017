@@ -1,0 +1,46 @@
+body
+{
+
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+    font-family: Comic Sans MS;
+    margin: 100px;
+}
+h1
+{
+  font-weight: bold;
+  text-align: center;
+  font-size : 50px;
+  color:  #154ef0;
+  margin-left: 15px;
+}
+h2
+{
+  font-size : 40px;
+  color: red;
+  font-weight: bold;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+p
+{
+margin: 75px;
+font-size : 20px;
+}
+ul
+{
+margin-left: 450px;
+margin-right: 425px;
+font-size : 20px;
+}
+span
+{
+  margin-left: 100px;
+  margin-right: 150px;
+}
+img
+{
+  margin-left: 25px;
+  max-width:100%;
+  height:auto;
+}

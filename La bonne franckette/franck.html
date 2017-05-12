@@ -1,0 +1,132 @@
+<!-- DOCTYPE html-->
+<html><head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="franck.css" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
+<!-- JQUERY -->
+<link rel="stylesheet" href="jquery-ui.css">
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/r20170329125654/recaptcha__fr.js"></script><script src="jquery-1.10.2.js"></script>
+<script src="jquery-ui.js"></script>
+
+<title>Guilde Loop'Back</title>
+
+<input type="number" />
+
+<script type="text/javascript">
+$(function() {
+	$( "#menu" ).menu();
+
+  });
+</script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+
+
+    <FORM>
+    <SELECT name="nom" size="1">
+    <OPTION>lundi
+    <OPTION>mardi
+    <OPTION>mercredi
+    <OPTION>jeudi
+    <OPTION>vendredi
+    </SELECT>
+    </FORM>
+
+
+</head>
+<body>
+
+
+
+<!--<script type="text/javascript">
+$(function() {
+	$( "#menu" ).menu();
+
+  });
+</script>-->
+
+<!-- _________________________________________________________________________________________________________________________________ --><div class="bandeau">
+	<div class="loginPanel">
+
+
+		<form action="" method="POST">
+				<table>
+					<tbody><tr>
+						<td>identifiant : </td>
+						<td><input class="text" name="identifiant" placeholder="identifiant" required="" type="text"></td>
+						<td> mot de passe : </td> <td><input class="text" name="motdepasse" placeholder="mot de passe" required="" type="password"></td>
+						<td><input name="valid" type="submit"></td>
+					</tr>
+					<tr>
+						<td colspan="4" style="color:black;" align="right"></td>
+					</tr>
+
+
+
+				</tbody></table>
+		</form>
+
+	</div>
+
+</div>
+
+<div id="menuContainer">
+<img src="image/logo.jpg" style="width:220">
+
+<ul id="menu" class="ui-menu ui-widget ui-widget-content" role="menu" tabindex="0" aria-activedescendant="ui-id-2">
+<li class="ui-menu-item" id="ui-id-1" tabindex="-1" role="menuitem"><a href="index.php">Accueil</a></li>
+
+<li class="ui-menu-item" id="ui-id-2" tabindex="-1" role="menuitem"><a href="inscription.php">Inscription</a></li><li class="ui-menu-item" id="ui-id-3" tabindex="-1" role="menuitem"><a href="mdp_oublie.php">Mot de passe oublié ?</a></li><p class="ui-menu-item" id="ui-id-4" tabindex="-1" role="menuitem">Joueurs connectés :</p><center class="ui-menu-item" id="ui-id-5" tabindex="-1" role="menuitem">Johnnyjok</center><center class="ui-menu-item" id="ui-id-6" tabindex="-1" role="menuitem">Fun</center><center class="ui-menu-item" id="ui-id-7" tabindex="-1" role="menuitem">Osarace</center><center class="ui-menu-item" id="ui-id-8" tabindex="-1" role="menuitem">Viiclegrand</center><center class="ui-menu-item" id="ui-id-9" tabindex="-1" role="menuitem">Fils_Athena </center><center class="ui-menu-item" id="ui-id-10" tabindex="-1" role="menuitem">Xiva</center><center class="ui-menu-item" id="ui-id-11" tabindex="-1" role="menuitem">Lost-Invoc</center><center class="ui-menu-item" id="ui-id-12" tabindex="-1" role="menuitem">Farky</center><center class="ui-menu-item" id="ui-id-13" tabindex="-1" role="menuitem">Ferolliot</center>
+
+
+
+
+</ul>
+</div>
+
+
+	<div id="pageContent">
+		<div>
+			<form method="post" action="">
+			<table align="Center">
+				<caption>Inscription</caption>
+				<caption></caption>
+				<tbody><tr>
+					<td>Identifiant :</td>
+					<td><input name="id" type="text"></td>
+				</tr>
+				<tr>
+					<td>Mot de passe :</td>
+					<td><input name="mdp" type="password"></td>
+				</tr>
+				<tr>
+					<td>Mot de passe :</td>
+					<td><input name="remdp" type="password"></td>
+				</tr>
+				<tr>
+					<td>adresse e-mail :</td>
+					<td><input name="mail" type="mail"></td>
+				</tr>
+				<tr>
+					<td>Nom personnage :</td>
+					<td><input name="personnagedofus" type="text"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><div class="g-recaptcha" data-sitekey="6Lf98w0UAAAAAMH3Zo0Hctyg9FYLmISWuMWhSRFu"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?k=6Lf98w0UAAAAAMH3Zo0Hctyg9FYLmISWuMWhSRFu&amp;co=aHR0cDovL2xvb3BiYWNrLnh5ejo4MA..&amp;hl=fr&amp;v=r20170329125654&amp;size=normal&amp;cb=n77jk38bo3pg" title="widget recaptcha" scrolling="no" name="undefined" frameborder="0" width="304" height="78"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div></td>
+				</tr><tr>
+				</tr><tr>
+					<td colspan="2" style="padding-top:10px;" align="right"><input value="inscription" name="inscription" type="submit"></td>
+				</tr>
+			</tbody></table>
+
+			</form>
+
+		</div>
+	</div>
+
+
+<div style="background-color: #fff; border: 1px solid #ccc; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); position: absolute; left: 0px; top: -10000px; transition: visibility 0s linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: #fff; opacity: 0.05;  filter: alpha(opacity=5)"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0; height: 0; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0; height: 0; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe src="https://www.google.com/recaptcha/api2/bframe?hl=fr&amp;v=r20170329125654&amp;k=6Lf98w0UAAAAAMH3Zo0Hctyg9FYLmISWuMWhSRFu#5965f36f3gey" title="Test recaptcha" style="width: 100%; height: 100%;" scrolling="no" name="5965f36f3gey" frameborder="0"></iframe>
+</div>
+</div>
+</body>
+</html>
