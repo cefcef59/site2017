@@ -368,3 +368,9 @@ background:url(img/bouton-noir-2.png) no-repeat;
 	margin-top:10px;
 	margin-bottom: 50px;
 }
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.bg-lightgray
+{
+    background-color: rgb(8, 8, 8);
+    color : white;
+}
